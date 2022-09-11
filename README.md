@@ -13,7 +13,9 @@
   
         SELECT name FROM Employee ORDER BY name ASC;
   
-- [](https) 
+- [Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12/problem?h_r=profile) 
+        
+        SELECT DISTINCT CITY FROM STATION WHERE LEFT(CITY,1) NOT IN ('a','e','o','u','i') and RIGHT(CITY,1) NOT IN ('a','e','o','u','i');
 - [](https) 
 
 
