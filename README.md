@@ -18,6 +18,11 @@
         SELECT DISTINCT CITY FROM STATION 
         WHERE LEFT(CITY,1) NOT IN ('a','e','o','u','i') 
         and RIGHT(CITY,1) NOT IN ('a','e','o','u','i');
-- [](https) 
+- [Higher Than 75 Marks](https://www.hackerrank.com/challenges/more-than-75-marks/problem?h_r=profile) 
+        
+        SELECT NAME 
+        FROM STUDENTS 
+        WHERE MARKS > 75 
+        ORDER BY RIGHT (NAME,3), ID;
 
 
