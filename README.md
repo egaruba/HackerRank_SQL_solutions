@@ -25,6 +25,11 @@
         SELECT CITY, STATE 
         FROM STATION;
         
+- [Weather Observation Station 2](https://www.hackerrank.com/challenges/weather-observation-station-2/problem?isFullScreen=true) 
+
+        SELECT ROUND(SUM(LAT_N),2), ROUND(SUM(LONG_W),2)
+        FROM STATION;
+        
 - [Weather Observation Station 3](https://www.hackerrank.com/challenges/weather-observation-station-3/problem?h_r=profile) 
         
         SELECT DISTINCT CITY 
@@ -120,6 +125,8 @@
         SELECT * FROM CITY 
         WHERE CountryCode = 'USA' 
         AND POPULATION > 100000;
+
+
 
 - []() 
 
