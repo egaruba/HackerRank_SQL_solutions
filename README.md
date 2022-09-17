@@ -58,6 +58,29 @@
         OR CITY LIKE'%i' 
         OR CITY LIKE '%o' 
         OR CITY LIKE '%u' ;
+- [Weather Observation Station 8](https://www.hackerrank.com/challenges/weather-observation-station-8/problem?h_r=profile) 
+
+        SELECT DISTINCT CITY
+        FROM STATION
+        WHERE REGEXP_LIKE(CITY,'^[a|e|i|o|u].*[a|e|i|o|u]$');
+
+- [Weather Observation Station 9](https://www.hackerrank.com/challenges/weather-observation-station-9/problem?h_r=profile) 
+
+        SELECT DISTINCT CITY 
+        FROM STATION 
+        WHERE LEFT(CITY,1) NOT IN ('A','E','I','O','U');
+        
+- [Weather Observation Station 10](https://www.hackerrank.com/challenges/weather-observation-station-10/problem?h_r=profile) 
+
+        SELECT DISTINCT CITY 
+        FROM STATION 
+        WHERE RIGHT(CITY,1) NOT IN ('a','e','o','u','i');
+
+- [Weather Observation Station 11](https://www.hackerrank.com/challenges/weather-observation-station-11/problem?h_r=profile) 
+
+        SELECT DISTINCT CITY 
+        FROM STATION WHERE LEFT(CITY,1) NOT IN ('a','e','o','u','i') 
+        OR RIGHT(CITY,1) NOT IN ('a','e','o','u','i');
 
 - [Weather Observation Station 12](https://www.hackerrank.com/challenges/weather-observation-station-12/problem?h_r=profile) 
         
@@ -66,4 +89,38 @@
         and RIGHT(CITY,1) NOT IN ('a','e','o','u','i');
         
         
+- [Select All](https://www.hackerrank.com/challenges/select-all-sql/problem?h_r=profile) 
+
+        SELECT * FROM CITY;
+        
+- [Japanese Cities' Names](https://www.hackerrank.com/challenges/japanese-cities-name/problem?h_r=profile) 
+
+        SELECT NAME 
+        FROM CITY 
+        WHERE COUNTRYCODE = 'JPN';
+        
+- [Japanese Cities' Attributes](https://www.hackerrank.com/challenges/japanese-cities-attributes/problem?h_r=profile) 
+
+        SELECT * FROM CITY 
+        WHERE COUNTRYCODE = 'JPN';
+
+- [Select By ID](https://www.hackerrank.com/challenges/select-by-id/problem?h_r=profile) 
+
+        SELECT * FROM CITY 
+        WHERE ID = 1661;
+
+- [Revising the Select Query II](https://www.hackerrank.com/challenges/revising-the-select-query-2/problem?h_r=profile) 
+
+        SELECT NAME 
+        FROM CITY 
+        WHERE CountryCode LIKE 'USA' AND POPULATION > 120000;
+        
+- [Revising the Select Query I](https://www.hackerrank.com/challenges/revising-the-select-query/problem?h_r=profile) 
+
+        SELECT * FROM CITY 
+        WHERE CountryCode = 'USA' 
+        AND POPULATION > 100000;
+
 - []() 
+
+
