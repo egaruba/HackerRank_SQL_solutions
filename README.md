@@ -25,4 +25,9 @@
         WHERE MARKS > 75 
         ORDER BY RIGHT (NAME,3), ID;
 
+- [Weather Observation Station 6](https://www.hackerrank.com/challenges/weather-observation-station-6/problem?h_r=profile) 
 
+        SELECT DISTINCT CITY 
+        FROM STATION
+        WHERE LEFT(CITY, 1) 
+        IN ('a','e','o','u','i');
