@@ -156,4 +156,12 @@
         FROM CITY 
         WHERE POPULATION > 100000;
         
+- [Population Density Difference](https://www.hackerrank.com/challenges/population-density-difference/problem?h_r=profile) 
+
+        SELECT MAX(POPULATION)-MIN(POPULATION)
+        FROM CITY;
+
 - []() 
+
+
+
