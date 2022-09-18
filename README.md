@@ -149,4 +149,11 @@
 - [Weather Observation Station 20](https://www.hackerrank.com/challenges/weather-observation-station-20/problem?h_r=profile) 
 
         SELECT ROUND(MEDIAN(LAT_N),4) FROM STATION; (ORACLE)
+        
+- [Revising Aggregations - The Count Function](https://www.hackerrank.com/challenges/revising-aggregations-the-count-function/problem?h_r=profile)         
 
+        SELECT COUNT(NAME) 
+        FROM CITY 
+        WHERE POPULATION > 100000;
+        
+- []() 
