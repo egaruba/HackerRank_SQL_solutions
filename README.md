@@ -136,9 +136,9 @@
 
 - [Weather Observation Station 14](https://www.hackerrank.com/challenges/weather-observation-station-14/problem?h_r=profile) 
 
-SELECT ROUND(MAX(LAT_N),4) 
-FROM STATION 
-WHERE LAT_N < 137.2345;
+        SELECT ROUND(MAX(LAT_N),4) 
+        FROM STATION 
+        WHERE LAT_N < 137.2345;
 
 - [Revising Aggregations - Averages](https://www.hackerrank.com/challenges/revising-aggregations-the-average-function/problem) 
         SELECT AVG(POPULATION) 
