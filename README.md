@@ -161,7 +161,12 @@
         SELECT MAX(POPULATION)-MIN(POPULATION)
         FROM CITY;
 
-- []() 
+- [Revising Aggregations - The Sum Function](https://www.hackerrank.com/challenges/revising-aggregations-sum/problem?h_r=profile) 
 
+        SELECT SUM(POPULATION) 
+        FROM CITY
+        WHERE DISTRICT = "California";
+
+- []() 
 
 
