@@ -167,6 +167,10 @@
         FROM CITY
         WHERE DISTRICT = "California";
 
+- [Japan Population](https://www.hackerrank.com/challenges/japan-population/problem?h_r=profile) 
+
+        SELECT SUM(POPULATION)
+        FROM CITY
+        WHERE COUNTRYCODE = "JPN";
+
 - []() 
-
-
