@@ -185,4 +185,12 @@
         WHERE LAT_N > 38.7780
         ORDER BY LAT_N ASC LIMIT 1;
 
-- []() 
+- [African Cities](https://www.hackerrank.com/challenges/african-cities/problem?h_r=profile) 
+
+        SELECT C.NAME 
+        FROM CITY C
+        JOIN COUNTRY CO
+        ON C.CountryCode = CO.CODE
+        WHERE CONTINENT = 'Africa';
+
+- []()
