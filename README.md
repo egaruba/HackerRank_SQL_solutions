@@ -201,4 +201,16 @@
         ON C.CountryCode = CO.CODE
         GROUP BY CONTINENT;
 
+- [The Report](https://www.hackerrank.com/challenges/the-report/problem?h_r=profile)
+
+        SELECT 
+        CASE
+            WHEN G.GRADE < 8 THEN NULL    
+            ELSE S.NAME
+        END AS NAME, G.GRADE, S.MARKS
+        FROM STUDENTS AS S
+        JOIN GRADES AS G
+        ON S.MARKS BETWEEN G.MIN_MARK AND G.MAX_MARK
+        ORDER BY G.GRADE DESC, S.NAME ASC ;
+
 - []()
