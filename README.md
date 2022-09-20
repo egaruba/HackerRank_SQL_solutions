@@ -215,10 +215,10 @@
 
 - [Population Census](https://www.hackerrank.com/challenges/asian-population/problem?h_r=profile)
 
-SELECT SUM(C.POPULATION)
-FROM CITY C
-JOIN COUNTRY CO
-ON C.CountryCode = CO.Code
-WHERE CO.CONTINENT ='ASIA';
+        SELECT SUM(C.POPULATION)
+        FROM CITY C
+        JOIN COUNTRY CO
+        ON C.CountryCode = CO.Code
+        WHERE CO.CONTINENT ='ASIA';
 
 - []()
