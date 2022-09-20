@@ -193,4 +193,12 @@
         ON C.CountryCode = CO.CODE
         WHERE CONTINENT = 'Africa';
 
+- [Average Population of Each Continent](https://www.hackerrank.com/challenges/average-population-of-each-continent/problem?h_r=profile)
+
+        SELECT CO.CONTINENT, FLOOR(AVG(C.POPULATION))
+        FROM COUNTRY CO
+        JOIN CITY C
+        ON C.CountryCode = CO.CODE
+        GROUP BY CONTINENT;
+
 - []()
