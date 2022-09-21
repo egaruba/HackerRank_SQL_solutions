@@ -221,4 +221,13 @@
         ON C.CountryCode = CO.Code
         WHERE CO.CONTINENT ='ASIA';
 
+- [Top Earners](https://www.hackerrank.com/challenges/earnings-of-employees/problem?h_r=profile)
+
+        SELECT Salary * Months AS INCOME, COUNT(*) 
+        FROM EMPLOYEE 
+        GROUP BY INCOME 
+        ORDER BY INCOME DESC LIMIT 1;
+
+- []()
+
 - []()
