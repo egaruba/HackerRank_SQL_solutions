@@ -228,6 +228,14 @@
         GROUP BY INCOME 
         ORDER BY INCOME DESC LIMIT 1;
 
-- []()
+- [Type of Triangle](hackerrank.com/challenges/what-type-of-triangle/problem?h_r=profile)
+        SELECT
+        CASE
+                WHEN A = B and B = C THEN 'Equilateral'
+                WHEN (A = B or B = C or C = A) and A + B > C THEN 'Isosceles' 
+                WHEN A <> B and B <> C and A + B > C THEN 'Scalene'
+                ELSE 'Not A Triangle'
+        END AS NAME
+        FROM TRIANGLES;
 
 - []()
