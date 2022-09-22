@@ -229,6 +229,7 @@
         ORDER BY INCOME DESC LIMIT 1;
 
 - [Type of Triangle](hackerrank.com/challenges/what-type-of-triangle/problem?h_r=profile)
+
         SELECT
         CASE
                 WHEN A = B and B = C THEN 'Equilateral'
