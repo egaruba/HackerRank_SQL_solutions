@@ -241,7 +241,7 @@
 
 - [The Blunder](https://www.hackerrank.com/challenges/the-blunder/problem?h_r=profile)
 
-SELECT CEIL(AVG(Salary - (REPLACE(Salary,'0',''))))
-FROM EMPLOYEES ;  
+        SELECT CEIL(AVG(Salary - (REPLACE(Salary,'0',''))))
+        FROM EMPLOYEES ;  
 
 - []()
