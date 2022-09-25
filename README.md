@@ -252,5 +252,11 @@
         ORDER BY LAT_N DESC
         LIMIT 1;
 
-- []()
+- [Weather Observation Station 18](https://www.hackerrank.com/challenges/weather-observation-station-18/problem?h_r=profile)
 
+        SELECT 
+        ABS(ROUND(max(LAT_N),4)-ROUND(min(LAT_N),4))
+        +ABS(ROUND(max(LONG_W),4)-ROUND(min(LONG_W),4)) 
+        FROM STATION ;
+
+- []()
