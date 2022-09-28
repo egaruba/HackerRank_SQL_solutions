@@ -269,4 +269,10 @@
         GROUP BY Occupation 
         ORDER BY COUNT(Occupation);
 
+- [Weather Observation Station 19](https://www.hackerrank.com/challenges/weather-observation-station-19/problem?h_r=profile)
+
+        SELECT ROUND(SQRT(POWER((MIN(LAT_N)-MAX(LAT_N)),2)
+                        + POWER((MIN(LONG_W)-MAX(LONG_W)),2)),4)
+        FROM STATION; 
+
 - []()
