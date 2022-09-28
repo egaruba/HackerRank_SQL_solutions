@@ -275,4 +275,18 @@
                         + POWER((MIN(LONG_W)-MAX(LONG_W)),2)),4)
         FROM STATION; 
 
+- [Binary Tree Nodes](https://www.hackerrank.com/challenges/binary-search-tree-1/problem?h_r=profile)
+
+        SELECT N,
+        CASE
+        WHEN P is NULL THEN 'Root'
+        WHEN N NOT IN (
+            SELECT P FROM BST 
+            WHERE P IS NOT NULL
+            ) THEN 'Leaf' 
+        ELSE 'Inner'
+        END
+        FROM BST
+        ORDER BY N;
+
 - []()
