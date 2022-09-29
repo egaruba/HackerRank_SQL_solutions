@@ -298,5 +298,10 @@
         FROM (SELECT *, ROW_NUMBER() OVER (PARTITION BY OCCUPATION ORDER BY NAME) RN FROM OCCUPATIONS ) T 
         GROUP BY RN;
 
+- [Draw The Triangle 1](https://www.hackerrank.com/challenges/draw-the-triangle-1/problem?h_r=profile)
+
+        SET @ROW = 21;
+        SELECT REPEAT('* ', @ROW := @ROW - 1) FROM information_schema.tables WHERE @ROW > 1;
+
 - []()
 
