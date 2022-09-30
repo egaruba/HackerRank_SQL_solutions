@@ -303,5 +303,16 @@
         SET @ROW = 21;
         SELECT REPEAT('* ', @ROW := @ROW - 1) FROM information_schema.tables WHERE @ROW > 1;
 
+- []() or
+
+        MS SQL:
+        
+        DECLARE @counter INT = 20
+        WHILE (@counter > 0) 
+        BEGIN
+           PRINT REPLICATE('* ', @counter) 
+           SET @counter = @counter - 1
+        END
+
 - []()
 
