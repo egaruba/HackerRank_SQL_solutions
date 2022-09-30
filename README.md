@@ -1,4 +1,6 @@
-## HackeRank SQL sollutions:
+## HackeRank SQL sollutions
+
+Most of the solutions are in MySQL.
 
 - [Average population](https://www.hackerrank.com/challenges/average-population?h_r=profile) 
         
