@@ -316,5 +316,23 @@ Most of the solutions are in MySQL.
            SET @counter = @counter - 1
         END
 
-- []()
+- [Top Competitors](https://www.hackerrank.com/challenges/full-score/problem?h_r=profile)
 
+        SELECT s.hacker_id, h.name
+        FROM
+            Submissions s
+        LEFT JOIN Challenges c ON s.challenge_id = c.challenge_id
+        LEFT JOIN Difficulty d ON c.difficulty_level = d.difficulty_level
+        LEFT JOIN Hackers h ON s.hacker_id = h.hacker_id
+        WHERE
+            s.score = d.score
+        GROUP BY
+            s.hacker_id,
+            h.name
+        HAVING
+            COUNT(*) > 1
+        ORDER BY
+            COUNT(*) DESC, hacker_id
+    
+
+- []()    
