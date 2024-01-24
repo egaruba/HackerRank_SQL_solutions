@@ -1,4 +1,4 @@
-## Real World SQL Questions Based On HackerRank Challenges
+# Real World SQL Questions Based On HackerRank Challenges
 ```
 -- Create employee table
 CREATE TABLE Employee (
